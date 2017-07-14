@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.ht.sample01.MainActivity">
 
-    <TextView
+    <ImageView
+        android:src="@drawable/space"
+        android:scaleType="center"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:background="#FFFF00"
-        android:textSize="20sp"
-        android:text="안드로이드 스튜디오 Android" />
+        android:layout_height="wrap_content" />
+
 
 
 </LinearLayout>
